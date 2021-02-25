@@ -1,0 +1,31 @@
+{
+  "name": "paddle-game",
+  "version": "1.0.0",
+  "description": "Paddle Game",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open",
+    "prod": "webpack --production"
+  },
+  "author": "Edward Marinescu",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv-webpack": "^1.7.0",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "css-loader": "^3.4.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "neffos.js": "^0.1.25",
+    "style-loader": "^1.1.2"
+  }
+}
